@@ -15,7 +15,7 @@ img = Image.open('tigers.jpeg')
 
 st.image(img, caption='tiger')
 '''# ①タイトル
-<h1>は#×１＋半角スペース
+<h1>は#×１＋半角スペース  
 <h2>は#×２＋半角スペース
 '''
   
@@ -29,13 +29,13 @@ st.image(img, caption='tiger')
   
   
 '''# ③強調と斜体
-**強調**
+**強調**  
 *斜体*
 '''
   
   
   
-'''リンク④
+'''# リンク④
 [グーグル](https://www.google.com/?hl=ja)
 
 '''
