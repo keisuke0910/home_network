@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from PIL import Image
 
 st.title('【テスト】Streamlitでタイトル')
 
@@ -10,10 +11,14 @@ df = pd.read_csv('csv/runキロ換算表.csv')
 
 df
 
-from PIL import Image
+
 img = Image.open('tigers.jpeg')
 
 st.image(img, caption='tiger')
+
+
+
+
 '''# ①タイトル
 <h1>は#×１＋半角スペース  
 <h2>は#×２＋半角スペース
@@ -35,9 +40,11 @@ st.image(img, caption='tiger')
   
   
   
-'''# リンク④
+'''# ④リンク
 [グーグル](https://www.google.com/?hl=ja)
 
 '''
 
-
+'''# ⑤カラー
+<font color="Red">テキスト</font>
+'''
