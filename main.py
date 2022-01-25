@@ -46,5 +46,24 @@ st.image(img, caption='tiger')
 '''
 
 '''# ⑤カラー
-<font color="Red">テキスト</font>
+<font color="Red">テキスト</font>  
+* テキスト  
+    * テキスト  
+    * テキスト  
+- テキスト  
+1. テキスト  
+2. テキスト  
+    3. テキスト  
+1行目  
+2行目
+<br>
+<br>
+3行目  
+
+  
+```java:title  
+int i = 0; //コード  
+```  
+
+
 '''
