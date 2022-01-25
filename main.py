@@ -45,8 +45,7 @@ st.image(img, caption='tiger')
 
 '''
 
-'''# ⑤カラー
-<font color="Red">テキスト</font>  
+'''# ⑤リスト
 * テキスト  
     * テキスト  
     * テキスト  
@@ -54,15 +53,14 @@ st.image(img, caption='tiger')
 1. テキスト  
 2. テキスト  
     3. テキスト  
-1行目  
-2行目
-<br>
-<br>
-3行目  
 
+'''
+
+
+'''# ⑥コードの挿入
   
-```java:title  
-int i = 0; //コード  
+```タイトル？？
+print('hello world')
 ```  
 
 
