@@ -62,10 +62,8 @@ st.image(img, caption='tiger')
 
 '''# ⑥コードの挿入
   
-```  
-  
+```
 print('hello world')  
-  
 ```  
 
 '''
@@ -78,4 +76,7 @@ print('hello world')
 '''
 
 
+'''
 
+
+'''
